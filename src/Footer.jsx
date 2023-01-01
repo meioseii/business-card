@@ -9,10 +9,10 @@ import GitHub from './assets/GitHub-Icon.png'
 export default function Footer() {
     return (
         <footer className="footer">
-            <button><img src={ Facebook }></img></button>
-            <button><img src={ Instagram }></img></button>
-            <button><img src={ Linkedin }></img></button>
-            <button><img src={ GitHub }></img></button>
+            <a href="https://www.facebook.com/austiiin.morenooo"><button><img src={ Facebook }></img></button></a>
+            <a href="https://www.instagram.com/raieruu/"><button><img src={ Instagram }></img></button></a>
+            <a href="https://www.linkedin.com/in/ryel-austin-moreno-850388147/"><button><img src={ Linkedin }></img></button></a>
+            <a href="https://github.com/meioseii"><button><img src={ GitHub }></img></button></a>
         </footer>
     )
 }
